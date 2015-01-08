@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.26)  8 JAN 2015 00:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.1)  8 JAN 2015 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper.tex
+**paper
 (./paper.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/mn2e.cls
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(./mn2e.cls
 Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
 Document Style `MN' v2.2, released 2001 February 20
 \math@groups=\toks14
@@ -44,24 +44,24 @@ LaTeX Info: Redefining \cite on input line 694.
 \@input{header.aux}
 \openout2 = `header.aux'.
 
-(./header.tex (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(./header.tex (/home/sm1fg/texmf/tex/latex/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/sm1fg/texmf/tex/latex/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/home/sm1fg/texmf/tex/latex/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/home/sm1fg/texmf/tex/latex/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/home/sm1fg/texmf/tex/latex/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -256,21 +256,25 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@table=\toks23
 ) (./paper.aux
-(./mhdruns.aux))
+(./mhdruns.aux)
+
+LaTeX Warning: Label `lastpage' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -335,116 +339,122 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+eur on input line 66.
+LaTeX Font Info:    Try loading font information for U+eur on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 $[]$ []\OT1/cmr/m/n/8 E-mail: c.c.evirgen@newcastle.ac.uk (CCE); an-
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 76--76
-\OT1/cmr/m/n/8 var.shukurov@newcastle.ac.uk (AS); (Fred's email here) an-
+Underfull \hbox (badness 1281) in paragraph at lines 79--79
+\OT1/cmr/m/n/8 var.shukurov@newcastle.ac.uk (AS); f.gent@shef.ac.uk (FAG);
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+
+Package natbib Warning: Citation `gent2' on page 1 undefined on input line 137.
+
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 
+] [2
+
 ]
 \openout2 = `mhdruns.aux'.
 
  (./mhdruns.tex
-<fig/o1pr_rpdf.png, id=26, 953.5625pt x 602.25pt>
+<fig/o1pr_rpdf.png, id=29, 953.5625pt x 602.25pt>
 File: fig/o1pr_rpdf.png Graphic file (type png)
  <use fig/o1pr_rpdf.png>
 Package pdftex.def Info: fig/o1pr_rpdf.png used on input line 17.
 (pdftex.def)             Requested size: 86.40015pt x 52.24753pt.
 
-<fig/o1pr_tpdf.png, id=28, 953.5625pt x 602.25pt>
+<fig/o1pr_tpdf.png, id=31, 953.5625pt x 602.25pt>
 File: fig/o1pr_tpdf.png Graphic file (type png)
  <use fig/o1pr_tpdf.png>
 Package pdftex.def Info: fig/o1pr_tpdf.png used on input line 18.
 (pdftex.def)             Requested size: 86.40015pt x 52.24753pt.
 
-<fig/o1pr_ppdf.png, id=30, 953.5625pt x 602.25pt>
+<fig/o1pr_ppdf.png, id=33, 953.5625pt x 602.25pt>
 File: fig/o1pr_ppdf.png Graphic file (type png)
  <use fig/o1pr_ppdf.png>
 Package pdftex.def Info: fig/o1pr_ppdf.png used on input line 19.
 (pdftex.def)             Requested size: 86.40015pt x 52.24753pt.
 
 
-LaTeX Warning: Reference `fig:pdf2' on page 2 undefined on input line 32.
+LaTeX Warning: Reference `fig:pdf2' on page 3 undefined on input line 32.
 
-<fig/zrhom.png, id=32, 953.5625pt x 602.25pt>
+<fig/zrhom.png, id=35, 953.5625pt x 602.25pt>
 File: fig/zrhom.png Graphic file (type png)
  <use fig/zrhom.png>
 Package pdftex.def Info: fig/zrhom.png used on input line 44.
 (pdftex.def)             Requested size: 128.40088pt x 81.08887pt.
 
-<fig/zrppm.png, id=33, 953.5625pt x 602.25pt>
+<fig/zrppm.png, id=36, 953.5625pt x 602.25pt>
 File: fig/zrppm.png Graphic file (type png)
  <use fig/zrppm.png>
 Package pdftex.def Info: fig/zrppm.png used on input line 45.
 (pdftex.def)             Requested size: 128.40088pt x 81.08887pt.
 
 
-LaTeX Warning: Reference `subsect:params' on page 2 undefined on input line 62.
+LaTeX Warning: Reference `subsect:params' on page 3 undefined on input line 62.
 
 
-<fig/o1pr_npdf3s.png, id=34, 730.73pt x 451.6875pt>
+<fig/o1pr_npdf3s.png, id=37, 730.73pt x 451.6875pt>
 File: fig/o1pr_npdf3s.png Graphic file (type png)
  <use fig/o1pr_npdf3s.png>
 Package pdftex.def Info: fig/o1pr_npdf3s.png used on input line 79.
 (pdftex.def)             Requested size: 107.99927pt x 66.75772pt.
 
-<fig/o1ph_npdf3s.png, id=35, 730.73pt x 451.6875pt>
+<fig/o1ph_npdf3s.png, id=38, 730.73pt x 451.6875pt>
 File: fig/o1ph_npdf3s.png Graphic file (type png)
  <use fig/o1ph_npdf3s.png>
 Package pdftex.def Info: fig/o1ph_npdf3s.png used on input line 80.
 (pdftex.def)             Requested size: 107.99927pt x 66.75772pt.
 
-<fig/o1pr_tpdf3s.png, id=36, 730.73pt x 451.6875pt>
+<fig/o1pr_tpdf3s.png, id=39, 730.73pt x 451.6875pt>
 File: fig/o1pr_tpdf3s.png Graphic file (type png)
  <use fig/o1pr_tpdf3s.png>
 Package pdftex.def Info: fig/o1pr_tpdf3s.png used on input line 81.
 (pdftex.def)             Requested size: 107.99927pt x 66.75772pt.
 
-<fig/o1ph_tpdf3s.png, id=37, 730.73pt x 451.6875pt>
+<fig/o1ph_tpdf3s.png, id=40, 730.73pt x 451.6875pt>
 File: fig/o1ph_tpdf3s.png Graphic file (type png)
  <use fig/o1ph_tpdf3s.png>
 Package pdftex.def Info: fig/o1ph_tpdf3s.png used on input line 82.
 (pdftex.def)             Requested size: 107.99927pt x 66.75772pt.
 
 
-LaTeX Warning: Reference `sect:dyn' on page 2 undefined on input line 106.
+LaTeX Warning: Reference `sect:dyn' on page 3 undefined on input line 106.
 
 
-LaTeX Warning: Reference `sect:entropy' on page 2 undefined on input line 119.
+LaTeX Warning: Reference `sect:entropy' on page 3 undefined on input line 119.
 
-<fig/o1pr_pdf2dtn.png, id=38, 1999.47pt x 1235.61626pt>
+<fig/o1pr_pdf2dtn.png, id=41, 1999.47pt x 1235.61626pt>
 File: fig/o1pr_pdf2dtn.png Graphic file (type png)
 
 <use fig/o1pr_pdf2dtn.png>
 Package pdftex.def Info: fig/o1pr_pdf2dtn.png used on input line 136.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
 
-<fig/o1ph_pdf2dtn.png, id=39, 1999.47pt x 1235.61626pt>
+<fig/o1ph_pdf2dtn.png, id=42, 1999.47pt x 1235.61626pt>
 File: fig/o1ph_pdf2dtn.png Graphic file (type png)
 
 <use fig/o1ph_pdf2dtn.png>
@@ -452,137 +462,123 @@ Package pdftex.def Info: fig/o1ph_pdf2dtn.png used on input line 137.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
 
 
-LaTeX Warning: Reference `fig:pdf2d' on page 2 undefined on input line 152.
+LaTeX Warning: Reference `fig:pdf2d' on page 3 undefined on input line 152.
 
-[2
+[3
 
  <./fig/o1pr_rpdf.png> <./fig/o1pr_tpdf.png> <./fig/o1pr_ppdf.png> <./fig/zrhom
 .png> <./fig/zrppm.png> <./fig/o1pr_npdf3s.png> <./fig/o1ph_npdf3s.png> <./fig/
 o1pr_tpdf3s.png> <./fig/o1ph_tpdf3s.png>]
-<fig/o1pr_pdf2dh.png, id=57, 1999.47pt x 1235.61626pt>
+<fig/o1pr_pdf2dh.png, id=59, 1999.47pt x 1235.61626pt>
 File: fig/o1pr_pdf2dh.png Graphic file (type png)
 
 <use fig/o1pr_pdf2dh.png>
 Package pdftex.def Info: fig/o1pr_pdf2dh.png used on input line 176.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
 
-<fig/o1ph_pdf2dh.png, id=58, 1999.47pt x 1235.61626pt>
+<fig/o1ph_pdf2dh.png, id=60, 1999.47pt x 1235.61626pt>
 File: fig/o1ph_pdf2dh.png Graphic file (type png)
 
 <use fig/o1ph_pdf2dh.png>
 Package pdftex.def Info: fig/o1ph_pdf2dh.png used on input line 177.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
 
-<fig/o1pr_pdf2db.png, id=59, 1999.47pt x 1235.61626pt>
+<fig/o1pr_pdf2db.png, id=61, 1999.47pt x 1235.61626pt>
 File: fig/o1pr_pdf2db.png Graphic file (type png)
 
 <use fig/o1pr_pdf2db.png>
 Package pdftex.def Info: fig/o1pr_pdf2db.png used on input line 196.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
 
-<fig/o1pr_pdf2tb.png, id=60, 1999.47pt x 1235.61626pt>
+<fig/o1pr_pdf2tb.png, id=62, 1999.47pt x 1235.61626pt>
 File: fig/o1pr_pdf2tb.png Graphic file (type png)
 
 <use fig/o1pr_pdf2tb.png>
 Package pdftex.def Info: fig/o1pr_pdf2tb.png used on input line 197.
 (pdftex.def)             Requested size: 114.00146pt x 70.4384pt.
- <fig/b310c.png, id=61, 1146.2825pt x 1146.2825pt>
+ <fig/b310c.png, id=63, 1146.2825pt x 1146.2825pt>
 File: fig/b310c.png Graphic file (type png)
 
 <use fig/b310c.png>
 Package pdftex.def Info: fig/b310c.png used on input line 221.
 (pdftex.def)             Requested size: 199.83582pt x 199.83284pt.
- <fig/b310w.png, id=63, 1146.2825pt x 1146.2825pt>
+ <fig/b310w.png, id=65, 1146.2825pt x 1146.2825pt>
 File: fig/b310w.png Graphic file (type png)
 
 <use fig/b310w.png>
 Package pdftex.def Info: fig/b310w.png used on input line 222.
 (pdftex.def)             Requested size: 199.83582pt x 199.83284pt.
- <fig/b310h.png, id=64, 1146.2825pt x 1146.2825pt>
+ <fig/b310h.png, id=66, 1146.2825pt x 1146.2825pt>
 File: fig/b310h.png Graphic file (type png)
 
 <use fig/b310h.png>
 Package pdftex.def Info: fig/b310h.png used on input line 223.
 (pdftex.def)             Requested size: 199.83582pt x 199.83284pt.
- [3 <./fig/o1pr_pdf2dtn.png> <./fig/o1ph_pdf2dtn.png> <./fig/o1pr_pdf2dh.png> <
-./fig/o1ph_pdf2dh.png> <./fig/o1pr_pdf2db.png> <./fig/o1pr_pdf2tb.png>]) [4
+ [4 <./fig/o1pr_pdf2dtn.png> <./fig/o1ph_pdf2dtn.png> <./fig/o1pr_pdf2dh.png> <
+./fig/o1ph_pdf2dh.png> <./fig/o1pr_pdf2db.png> <./fig/o1pr_pdf2tb.png>]) [5
 
  <./fig/b310c.png> <./fig/b310w.png> <./fig/b310h.png>]
-<snapshot1.png, id=81, 1305.87875pt x 716.6775pt>
+
+Package natbib Warning: Citation `SSFS02' on page 6 undefined on input line 161
+.
+
+
+Package natbib Warning: Citation `st02' on page 6 undefined on input line 161.
+
+<snapshot1.png, id=83, 1305.87875pt x 716.6775pt>
 File: snapshot1.png Graphic file (type png)
  <use snapshot1.png>
-Package pdftex.def Info: snapshot1.png used on input line 145.
+Package pdftex.def Info: snapshot1.png used on input line 187.
 (pdftex.def)             Requested size: 504.0pt x 276.59424pt.
 
-Overfull \hbox (1.88892pt too wide) in paragraph at lines 145--147
+Overfull \hbox (1.88892pt too wide) in paragraph at lines 187--189
  []|  [] 
  []
 
-<sline_vs_fld1.pdf, id=82, 1175.2909pt x 641.39626pt>
+<sline_vs_fld1.pdf, id=84, 1175.2909pt x 641.39626pt>
 File: sline_vs_fld1.pdf Graphic file (type pdf)
  <use sline_vs_fld1.pdf>
-Package pdftex.def Info: sline_vs_fld1.pdf used on input line 151.
+Package pdftex.def Info: sline_vs_fld1.pdf used on input line 193.
 (pdftex.def)             Requested size: 240.0pt x 130.96837pt.
 
-Underfull \hbox (badness 1325) in paragraph at lines 160--180
-\OT1/cmr/m/n/9 Figure 9[][] on the pre-vi-ous page[] shows the prob-a-bil-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--180
+Underfull \hbox (badness 10000) in paragraph at lines 202--222
 
  []
 
-[5
+[6
 
  <./sline_vs_fld1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [6 <./snapshot1.png (PNG copy)>] <decomp_pdf_overall.pdf, id=158, 578.16pt x 4
+ [7 <./snapshot1.png (PNG copy)>] <decomp_pdf_overall.pdf, id=162, 578.16pt x 4
 33.62pt>
 File: decomp_pdf_overall.pdf Graphic file (type pdf)
 
 <use decomp_pdf_overall.pdf>
-Package pdftex.def Info: decomp_pdf_overall.pdf used on input line 192.
+Package pdftex.def Info: decomp_pdf_overall.pdf used on input line 234.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
- [7 <./decomp_pdf_overall.pdf>]
-Underfull \hbox (badness 1533) in paragraph at lines 213--214
-[]\OT1/cmr/m/n/9 Tennekes H., Lum-ley J.L.,\OT1/cmr/m/it/9 A First Course in Tu
-r-bu-
- []
+ [8 <./decomp_pdf_overall.pdf>] (./paper.bbl)
 
+Package natbib Warning: There were undefined citations.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-[]\OT1/cmr/m/n/9 Stepanov R., Frick P., Shukurov A., Sokoloff
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 216--217
-\OT1/cmr/m/n/9 D., \OT1/cmr/m/it/9 Wavelet to-mog-ra-phy of the Galac-tic mag-n
-etic
- []
-
-
-Underfull \hbox (badness 6741) in paragraph at lines 217--218
-[]\OT1/cmr/m/n/9 Baddeley A., Jensen E.B., \OT1/cmr/m/it/9 Stere-ol-ogy for Sta
-tis-ti-
- []
-
-[8
+[9
 
 ] (./paper.aux (./mhdruns.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4973 strings out of 493304
- 71730 string characters out of 6139871
- 152640 words of memory out of 5000000
- 8312 multiletter control sequences out of 15000+600000
- 23422 words of font info for 83 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 40i,14n,40p,1109b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5017 strings out of 495028
+ 72054 string characters out of 6181498
+ 149336 words of memory out of 5000000
+ 8106 multiletter control sequences out of 15000+600000
+ 23077 words of font info for 82 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,14n,40p,1101b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -604,12 +600,11 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb>
-Output written on paper.pdf (8 pages, 3185706 bytes).
+nts/symbols/msam10.pfb>
+Output written on paper.pdf (9 pages, 3175565 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
