@@ -5,19 +5,17 @@
   The total volume probability distributions for gas number density $n$, 
   temperature $T$ and thermal pressure $p$ are displayed in Fig.~\ref{fig:pdfm}
   from Models~$\Ompa$ (black, solid) and $\Omph$ (blue, dashed). 
-  Note that Model~$\Omph$ includes the correction to the SN distribution,
-  which stabilises the disc against unphysical cyclic oscillations, although
-  it is still subject to natural random vertical fluctuations.
-  Hence the mean density in the SN active region remains consistently higher
-  than in Model~\Op.
-  
+%  Note that Model~$\Omph$ includes the correction to the SN distribution,
+%  which stabilises the disc against unphysical cyclic oscillations, although
+%  it is still subject to natural random vertical fluctuations.
+%  Hence the mean density in the SN active region remains consistently higher
+%  than in Model~\Op.
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
-  \centering\hspace{-2cm}
-  \includegraphics[width=0.36\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_rpdf.png}
-  \includegraphics[width=0.36\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_tpdf.png}
-  \includegraphics[width=0.36\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_ppdf.png}
-  \hspace{-2cm}
+  \begin{figure}
+  \centering
+  \includegraphics[width=0.9\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_rpdf.png}
+  \includegraphics[width=0.9\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_tpdf.png}
+  \includegraphics[width=0.9\columnwidth,clip=true,trim=0 0 0 9mm]{fig/o1pr_ppdf.png}
     \caption[Total volume probability distributions for Model~$\Ompa$ and $\Omph$]{
   Volume weighted probability distributions of gas number
   density~{\textbf{(a)}}, temperature~{\textbf{(b)}} and thermal
@@ -26,23 +24,27 @@
     \label{fig:pdfm}}
   \end{figure}
 %-----------------------------------------------------------------------------
-
-  Although the three phase temperature distribution is still visible for this
-  model in Fig.~\ref{fig:pdfm}b, it is less pronounced than the results from
-  Model~\Op\ shown in Fig.~\ref{fig:pdf2}b.
-  However the three phase structure for the MHD Model~$\Ompa$ is not at all
-  apparent in panel b, with a significantly narrower range of temperatures.
+  A three phase temperature distribution is visible for Model~$\Omph$ (HD)
+  model in Fig.~\ref{fig:pdfm}b, while less apparent for Model~$\Ompa$ (MHD),
+  with a significantly narrower range of temperatures.
   The bulk of the density distributions (a) are quite similar between the 
-  HD and MHD models, except that the high densities are not as well resolved in
-  the MHD models.
+  HD and MHD model, except that the high densities are not as well resolved in
+  the MHD model.
   The thermal pressure distributions are very similar, but with the HD modal
   pressure approximately one third the MHD modal pressure. 
-
+  \footnote{FAG: I think these plots are averages of several snapshots in the 
+  kinematic dynamo -- need to check -- while the analysis elsewhere is on the 
+  saturated field}
+  Even with a relatively weak magnetic field, there is significantly increased
+  stiffness to the ISM, which restricts transport of the hot gas away from the
+  disk (FAG: Kompaneets?), and may also act as a break on the supersonic
+  flows, reducing the material collected in the snowplough phase of the SN and
+  hence less cold gas resolved in the model (FAG: cite?)
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
-  \centering\hspace{-2cm}
-  \includegraphics[width=0.535\columnwidth]{fig/zrhom.png}
-  \includegraphics[width=0.535\columnwidth]{fig/zrppm.png}\hspace{-2cm}
+  \begin{figure}
+  \centering
+  \includegraphics[width=0.9\columnwidth]{fig/zrhom.png}
+  \includegraphics[width=0.9\columnwidth]{fig/zrppm.png}
     \caption[Horizontal averages of $n$ and $P$ for Model~$\Ompa$ and $\Omph$]{
   Horizontal averages of gas number density, $\mean{n}(z)$ {\textbf{(a)}}, and
   total pressure, $\mean{P}(z)$ {\textbf{(b)}}, for Model~{$\Ompa$} (solid,
@@ -52,19 +54,19 @@
   The vertical lines indicate standard deviation within each horizontal slice.
   The thermal $\mean{p}(z)$ (dotted) and ram $\mean{p}\turb(z)$ (fine dashed)
   pressures are also plotted {\textbf{(b)}}.
-  For Model~{\OpH} the magnetic pressure $\mean{p}_B$ is also plotted (fine, 
-  dash-3dotted).
+%  For Model~{\OpH} the magnetic pressure $\mean{p}_B$ is also plotted (fine, 
+%  dash-3dotted).
     \label{fig:zrhom}
             }
   \end{figure}
 %-----------------------------------------------------------------------------
 
-  As discussed in Section~\ref{subsect:params} the stability of the disc
-  reduces the effectiveness of the SNe to generate and circulate hot gas, in
-  the absence of SN clustering. 
-  Hence Model~$\Omph$ has a slightly thicker disc, with less hot gas than 
-  Model~\Op.
-  On top of this the effect of the magnetic pressure in Model~$\Ompa$ is to 
+%  As discussed in Section~\ref{subsect:params} the stability of the disc
+%  reduces the effectiveness of the SNe to generate and circulate hot gas, in
+%  the absence of SN clustering. 
+%  Hence Model~$\Omph$ has a slightly thicker disc, with less hot gas than 
+%  Model~\Op.
+  The effect of the magnetic pressure in Model~$\Ompa$ is to 
   expand the thick disc even further and this is illustrated in 
   Fig.~\ref{fig:zrhom}a, where the horizontal averages of gas number density
   $n(z)$ are plotted against $z$ for both models. 
@@ -74,12 +76,12 @@
   magnetic field is strongest.
   
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
+  \begin{figure}
   \centering
-  \includegraphics[width=0.45\linewidth]{fig/o1pr_npdf3s.png}  
-  \includegraphics[width=0.45\linewidth]{fig/o1ph_npdf3s.png}\\  
-  \includegraphics[width=0.45\linewidth]{fig/o1pr_tpdf3s.png}
-  \includegraphics[width=0.45\linewidth]{fig/o1ph_tpdf3s.png}  
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_npdf3s.png}  
+  \includegraphics[width=0.9\linewidth]{fig/o1ph_npdf3s.png}\\  
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_tpdf3s.png}
+  \includegraphics[width=0.9\linewidth]{fig/o1ph_tpdf3s.png}  
     \caption[Probability distributions by phase for $n$ and $T$]{
   Probability distributions by phase: cold (blue, dashed), warm (black, solid)
   and hot (red, dash-dotted) for gas number density ($n$ {\textbf{(a), (b)}})
@@ -103,7 +105,7 @@
   Another possible effect, which might constrain the circulation of the hot
   gas, and hence enhance the pressure at the mid-plane, is the strong 
   horizontal orientation of the field.
-  As mentioned in Section~\ref{sect:dyn} the periodic boundary conditions
+  The periodic boundary conditions
   exclude a non-zero vertical component to the mean field, so the magnetic
   tension predominantly acts against the vertical flows.
   Some understanding of the multi-phase structure of the magnetised ISM is
@@ -116,7 +118,7 @@
   towards the halo).
 
   Results for separation of the ISM into three phases using the method 
-  detailed in Section~\ref{sect:entropy} are shown for Models~$\Ompa$ and
+  detailed in \cite[][Ch. 5.3]{Gent12} are shown for Models~$\Ompa$ and
   $\Omph$ in Fig~\ref{fig:npdf3s} with total volume probability distributions.
   The phases are defined using entropy $s$ such that for cold 
   $s<4.4\cdot10^{8}\erg \g^{-1}\K^{-1}$ and hot 
@@ -126,15 +128,15 @@
   anticipated by the volume distributions (Fig.~\ref{fig:pdfm}), the warm and
   hot distributions for the MHD density (panel a) are broad, with a bimodal 
   structure to the hot gas. 
-  The distributions for the warm gas (panels c and d) are very similar and for the
-  cold (hot) distributions the MHD model does not extend to as low (high)
+  The distributions for the warm gas (panels c and d) are very similar and for
+  the cold (hot) distributions the MHD model does not extend to as low (high)
   temperatures. 
   
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
+  \begin{figure}
   \centering
-  \includegraphics[width=0.475\linewidth]{fig/o1pr_pdf2dtn.png}  
-  \includegraphics[width=0.475\linewidth]{fig/o1ph_pdf2dtn.png}
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_pdf2dtn.png}  
+  \includegraphics[width=0.9\linewidth]{fig/o1ph_pdf2dtn.png}
     \caption[2D probability distribution of $n$ and $T$ for Models~$\Ompa$ and $\Omph$]{
   Probability contour plot by volume of log$n$ vs log$T$ for Model~$\Ompa$
   {\textbf{(a)}}
@@ -149,7 +151,7 @@
 
   Comparing the combined probability distribution of density and temperature
   for both of these models in Fig.~\ref{fig:b2dv} with those of Model~\Op\
-  in Fig.~\ref{fig:pdf2d} the spread is more broad and not obviously 
+  in \cite[][Fig. 5.10]{Gent12} the spread is more broad and not obviously 
   aligned along a line of constant pressure.
   The HD distribution here is less compact than with MHD. 
   However when considering only the mid-plane distributions, as displayed in
@@ -171,10 +173,10 @@
   The cold gas is insufficiently resolved in Model~$\Ompa$ for comparison. 
   
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
+  \begin{figure}
   \centering
-  \includegraphics[width=0.475\linewidth]{fig/o1pr_pdf2dh.png}  
-  \includegraphics[width=0.475\linewidth]{fig/o1ph_pdf2dh.png}
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_pdf2dh.png}  
+  \includegraphics[width=0.9\linewidth]{fig/o1ph_pdf2dh.png}
     \caption[2D mid-plane probability distribution for Models~$\Ompa$ and  $\Omph$]{
   The mid-plane probability distributions ($|z|<100\pc$) by gas number density 
   $\log n$ and temperature $\log T$ for {\textbf{(a)}} Model~$\Ompa$ and
@@ -191,10 +193,10 @@
   dynamo saturated state, and also extend to lower pressures.
   
 %-----------------------------------------------------------------------------
-  \begin{figure}[h]
+  \begin{figure}
   \centering
-  \includegraphics[width=0.475\linewidth]{fig/o1pr_pdf2db.png}  
-  \includegraphics[width=0.475\linewidth]{fig/o1pr_pdf2tb.png}
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_pdf2db.png}  
+  \includegraphics[width=0.9\linewidth]{fig/o1pr_pdf2tb.png}
     \caption[2D probability distribution of $n,B$ and $B,T$ for Model~$\Ompa$]{
   Total volume probability distributions ($|z|<100\pc$) by gas number density 
   $\log n$ and magnetic field strength $\log |B|$ {\textbf{(a)}} and
@@ -215,12 +217,12 @@
   
   
 %-----------------------------------------------------------------------------
-  \begin{figure*}[h]
+  \begin{figure*}
   \centering
   \hspace{-1.25cm}
-  \includegraphics[width=0.3965\linewidth]{fig/b310c.png}\hspace{-1.15cm}
-  \includegraphics[width=0.3965\linewidth]{fig/b310w.png}\hspace{-1.15cm}
-  \includegraphics[width=0.3965\linewidth]{fig/b310h.png}
+  \includegraphics[width=0.35\linewidth]{fig/b310c.png}\hspace{-1.15cm}
+  \includegraphics[width=0.35\linewidth]{fig/b310w.png}\hspace{-1.15cm}
+  \includegraphics[width=0.35\linewidth]{fig/b310h.png}
   \hspace{-1.25cm}
   \caption[Volume snapshots of $\vect{B}$ by phase for Model~$\Ompa$]{
   Vector plots of the magnetic field $\vect{B}$ {\text{(a)}} in the cold phase

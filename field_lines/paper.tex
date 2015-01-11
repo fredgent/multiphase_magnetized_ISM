@@ -15,7 +15,7 @@
 
 \documentclass[useAMS,usenatbib]{mn2e}
 %FAG added header file to contain macros
-\include{header}
+\input{header}
 %\usepackage{amsmath}
 %\usepackage{bm}
 %\usepackage{mathtools}
@@ -155,7 +155,7 @@ where $l\approx50$pc is half the integral scale of random motions \citep{GSSFM13
 %\end{minipage}
 %\end{table*}
 %FAG added section from thesis -- to be edited
-\include{mhdruns}
+\input{mhdruns}
 %end FAG
 \section[]{Field lines of the magnetic field}
 Field lines of the magnetic field give a qualitative description of the magnetic field in the ISM. We introduce sampling of physical variables along the field lines of the magnetic field, to obtain a quantitative description of the observables. Observables, such as entropy or pulsar RM measures \citep{SSFS02} are frequently used to derive other observables or statistics.  The use of sampling along field lines will enable the analysis of observables across many snapshots, whilst avoiding the use of time averages, which is not sensible for observables associated to a turbulent flow \citep{TL72}. For example, the wavelet transform methods used by Stepanov \textsl{et al} \citep{st02} are used to derive the Galactic magnetic field from pulsar RM data. Field lines of the Galactic magnetic field can be derived from this analysis and it can be further analysed using sampling along the field lines.\\
@@ -188,7 +188,7 @@ which are integrated using a $4^{th}$-order Runge-Kutta scheme. For discrete-val
 \hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y\approx-0.5$ kpc. 
   \label{fig:fld_lines}}
   \end{figure*}
-\begin{figure}[h]
+\begin{figure}
 \centering
 \includegraphics[width=\linewidth]{sline_vs_fld1.pdf}
 \caption{PDFs of entropy (blue), $s$, log density (red), $\log(n)$, and log temperature (green), $\log(T)$, along field lines (solid) and straight lines (dashed).}
@@ -242,6 +242,30 @@ A sharp peak is also observed in the warm phase in the PDF for the random field,
 
  
 \section{Conclusions}
+%FAG
+Note, that the mean magnetic field is strongest in the warm phase and the 
+dynamo is strongest in the SN dense region within 500\pc of the midplane. 
+These results support the hypothesis that the mean field is closely aligned to 
+the warm phase of the ISM.
+The fluctuating magnetic field is present in similar magnitude in all phases.
+Note, in the warm phase, away from the midplane the magnetic field has a 
+stronger vertical component, even though in these models the periodic boundary
+conditions constrain the net $B_z$ to be zero on each horizontal slice. 
+Given more open horizontal boundaries, we could anticipate the mean field 
+actually to exhibit more vertical structure. 
+With higher numerical diffusion required for the hot gas, the fluctuation 
+dynamo in this phase may have been relatively suppressed, although the 
+Reynolds numbers may have been higher than in the warm gas as both the length
+scales and the velocities of the turbulence are tyically higher in the hot gas
+than in the warm.
+Nevertheless, a higher resolution run would be helpful in assessing how robust
+is the alignment of the mean field to the warm phase, and whether the
+fluctuating field in the hot phase may yet have relatively greater amplitude
+than obtained here.
+Given the dominance of the dynamo about the midplane, this may be feasible
+without extending the domain vertically.
+
+%end FAG
 
 \newpage
 \section*{Acknowledgements}
