@@ -6,6 +6,23 @@ Baddeley A.,  Jensen E.,  2004, Stereology for Statisticians.
 Chapman \& Hall/CRC Monographs on Statistics \& Applied Probability, Taylor \&
   Francis
 
+\bibitem[\protect\citeauthoryear{{Beck}, {Anderson}, {Heald}, {Horneffer},
+  {Iacobelli}, {K{\"o}hler}, {Mulcahy}, {Pizzo}, {Scaife}, {Wucknitz} \& {LOFAR
+  Magnetism Key Science Project Team}}{{Beck}
+  et~al.}{2013}]{2013AN....334..548B}
+{Beck} R.,  {Anderson} J.,  {Heald} G.,  {Horneffer} A.,  {Iacobelli} M.,
+  {K{\"o}hler} J.,  {Mulcahy} D.,  {Pizzo} R.,  {Scaife} A.,  {Wucknitz} O.,
+  {LOFAR Magnetism Key Science Project Team} 2013, Astronomische Nachrichten,
+  334, 548
+
+\bibitem[\protect\citeauthoryear{{Cox} \& {Smith}}{{Cox} \&
+  {Smith}}{1974}]{CS74}
+{Cox} D.~P.,  {Smith} B.~W.,  1974, \apj, 189, L105
+
+\bibitem[\protect\citeauthoryear{de Avillez \& Breitschwerdt}{de~Avillez \&
+  Breitschwerdt}{2004}]{Avillez04}
+de Avillez M.~A.,  Breitschwerdt D.,  2004, Baltic Astronomy, 13, 386
+
 \bibitem[\protect\citeauthoryear{{de Avillez} \& {Breitschwerdt}}{{de Avillez}
   \& {Breitschwerdt}}{2005}]{AB05a}
 {de Avillez} M.~A.,  {Breitschwerdt} D.,  2005, \aap, 436, 585
@@ -13,6 +30,14 @@ Chapman \& Hall/CRC Monographs on Statistics \& Applied Probability, Taylor \&
 \bibitem[\protect\citeauthoryear{{Dobbs} \& {Price}}{{Dobbs} \&
   {Price}}{2008}]{Dobbs08}
 {Dobbs} C.~L.,  {Price} D.~J.,  2008, \mnras, 383, 497
+
+\bibitem[\protect\citeauthoryear{{Ferri{\`e}re}}{{Ferri{\`e}re}}{2001}]{F01}
+{Ferri{\`e}re} K.~M.,  2001, \rmp, 73, 1031
+
+\bibitem[\protect\citeauthoryear{Fletcher, Beck, Shukurov, Berkhuijsen \&
+  Horellou}{Fletcher et~al.}{2011}]{MNR18065}
+Fletcher A.,  Beck R.,  Shukurov A.,  Berkhuijsen E.~M.,    Horellou C.,  2011,
+  Monthly Notices of the Royal Astronomical Society, 412, 2396
 
 \bibitem[\protect\citeauthoryear{Gent}{Gent}{2012}]{Gent12}
 Gent F.~A.,  2012, PhD thesis, Newcastle University School of Mathematics and
@@ -54,14 +79,33 @@ Jagiellonian University, Krak{\'{o}}w, pp 162--170
 Korpi M.~J.,  Brandenburg A.,  Shukurov A.,    Tuominen I.,  1999, A\&A, 350,
   230
 
+\bibitem[\protect\citeauthoryear{Kuijken \& Gilmore}{Kuijken \&
+  Gilmore}{1989}]{Kuijken89}
+Kuijken K.,  Gilmore G.,  1989, MNRAS, 239, 605
+
 \bibitem[\protect\citeauthoryear{{Mac Low}, {Balsara}, {Kim} \& {de
   Avillez}}{{Mac Low} et~al.}{2005}]{M-LBKA05}
 {Mac Low} M.-M.,  {Balsara} D.~S.,  {Kim} J.,    {de Avillez} M.~A.,  2005,
   \apj, 626, 864
 
+\bibitem[\protect\citeauthoryear{{References?}}{{References?}}{0000}]{dummy}
+{References?} A.,  0000, a journal, 1, 1
+
+\bibitem[\protect\citeauthoryear{{Sarazin} \& {White} III}{{Sarazin} \&
+  {White}}{1987}]{Sarazin87}
+{Sarazin} C.~L.,  {White} III R.~E.,  1987, \apj, 320, 32
+
 \bibitem[\protect\citeauthoryear{{Tennekes} \& {Lumley}}{{Tennekes} \&
   {Lumley}}{1972}]{TL72}
 {Tennekes} H.,  {Lumley} J.~L.,  1972, First Course in Turbulence.
 Cambridge: MIT Press
+
+\bibitem[\protect\citeauthoryear{Tomisaka}{Tomisaka}{1998}]{Tomisaka98}
+Tomisaka K.,  1998, mnras, 298, 797
+
+\bibitem[\protect\citeauthoryear{{Wolfire}, {Hollenbach}, {McKee}, {Tielens} \&
+  {Bakes}}{{Wolfire} et~al.}{1995}]{Wolfire95}
+{Wolfire} M.~G.,  {Hollenbach} D.,  {McKee} C.~F.,  {Tielens} A.~G.~G.~M.,
+  {Bakes} E.~L.~O.,  1995, \apj, 443, 152
 
 \end{thebibliography}
