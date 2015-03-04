@@ -1,0 +1,238 @@
+18,26c18,27
+51,54c52,54
+< \title[Statistical Geometry of the turbulent multi-phase ISM - I. Field lines]{Statistical Geometry of the turbulent ISM - I. Field lines}
+< \author[C. C.~Evirgen, A.~Shukurov, F.A. Gent and A.~Fletcher]{C.C.~Evirgen$^{1}$\thanks{E-mail:
+< c.c.evirgen@newcastle.ac.uk (CCE); anvar.shukurov@newcastle.ac.uk (AS); 
+< f.gent@shef.ac.uk (FAG); andrew.fletcher@newcastle.ac.uk (AF)}, A.~Shukurov$^{1}$, F.A.~Gent$^{2}$ and A.~Fletcher$^{1}$.\\%$^{2}$\footnotemark[1]\thanks{This file has been amended to
+---
+> \title[The supernova-regulated ISM -- III. Field lines]{The supernova-regulated ISM -- III. Field lines}
+> \author[C. C.~Evirgen, A.~Shukurov, F.A. Gent and A.~Fletcher]{C. C.~Evirgen$^{1}$\thanks{E-mail:
+> c.c.evirgen@newcastle.ac.uk (CCE); anvar.shukurov@newcastle.ac.uk (AS); f.gent@shef.ac.uk (FAG); andrew.fletcher@newcastle.ac.uk (AF)}, A.~Shukurov$^{1}$, F. A.~Gent$^{2}$ and A.~Fletcher$^{1}$.\\%$^{2}$\footnotemark[1]\thanks{This file has been amended to
+59,61c59
+< Newcastle upon Tyne, UK, NE1 7RU\\
+< $^{2}$SP$^{\,2}$\!RC, School of Mathematics and Statistics, University of Sheffield, 
+< Sheffield, UK, S3 7RH}
+---
+> Newcastle upon Tyne, UK, NE1 7RU\\$^{2}$SP$^2$RC, School of Mathematics and Statistics, University of Sheffield, Sheffield, UK, S3 7RH}
+74c72
+< Abstract to be left until the end. Words, words and more words to follow but first we need a paper. There will be methods, keywords and results hinted at here. 
+---
+> ...
+78c76
+< circumstellar matter -- infrared: stars.
+---
+> ...
+82,134c80,83
+< FAG -- notes -- include Beck, Fletcher, Berkhuijsen observations of magnetic 
+< fields \citep{2013AN....334..548B, MNR18065} and observation/estimates of multiphase structure \citep{dummy}
+< \citep{CS74,M077}
+< 
+< %FAG rephrase
+< %The results presented in this paper are based on simulations of the multiphase interstellar medium (ISM) by Gent \textsl{et al} in \citep{GSFSM13} and \citep{GSSFM13}, %further referencing to Paper I & II needed here.
+< The results presented in this paper are based on simulations of the multiphase 
+< interstellar medium (ISM) reported in \citet{GSFSM13} and \citet{GSSFM13}, %further referencing to Paper I & II needed here.
+< subsequently referred to as \HD\, and \MHD, respectively.
+< %end FAG
+< %FAG rephrase
+< In particular we consider a model, identified as B1$\Omega$s in \MHD.
+< Supernova(SN)-driven turbulence is applied to ISM in a section of a spiral
+< galaxy differentially rotating, stratified about the galactic disk and subject
+< to, radiative cooling \citep{Sarazin87,Wolfire95}, photoelectric heating
+< \citep{Wolfire95} and other transport processes.
+< The rate and distribution of SN explosions, gravity \citep{Kuijken89} and 
+< angular momentum are consistent with observational parameters for the solar
+< neighbourhood \citep{F01}.
+< A nano Gauss seed magnetic field is applied and amplified by dynamo until it
+< saturates with a mean magnetic stength of a few micro Gauss, remarkably 
+< consistent with observed estimates for the Milky Way \citep{dummy}.
+< 
+< Models of the magnetized ISM \citep{Heitsch01,M-LBKA05} 
+< %FAG maybe also include Henley et al 2015 end FAG
+< have explored the 
+< effects of magnetic field on the localized ISM, including the fluctuation 
+< dynamo, but without the effects of stratification and the large scale 
+< structure induced by the differential rotation of the disk.
+< Large scale structure in the stratified ISM has been investigated by
+< \citet{AB05a}, but without differential rotation the dynamo to grow the field
+< to full strength is absent, so an imposed field is applied. 
+< \citet{Hanasz05,Dobbs08} and \citet{Hanasz09} apply magnetic fields to global 
+< disk models, including a dynamo, but due to numerical constraints must limit or 
+< exclude vertical stratification and multi-phase gas composition.
+< \citet{Korpi99a} and \cite{Gressel08} conducted earlier simulations with the
+< same approach as described here, but with lower resolution and higher 
+< diffusion were unable to follow the dynamo through to saturation.
+< The advantage of the results from \MHD\ is that the magnetic field produced
+< is not imposed, but evolves dynamically under realistic physical processes
+< governing the formation of the thermo-hydrodynamic structure of the ISM.
+< From this point of view it is of great value for appreciating the 
+< multi-phase structure of the magnetized ISM and for comparison with observation.
+< 
+< %focusing on the the B1$\Omega$s model of the ISM. This model features supernova(SN)-driven turbulence with gravity, differential rotation, SN explosions (SNe), radiative cooling, photoelectric heating and other transport processes, where the dynamo is in a kinematic statistically-steady state \citep{GSFSM13,GSSFM13}.\\
+< %end FAG
+< A snapshot of the ISM at approximately $t=1.4$ Gyr is used. Its characteristics, in terms of the fractional volumes of the phases, is representative of the steady-state phase of the dynamo. In addition, there are two potential SN remnants, which provide isolated structures of hot gas. This enhances the illustration of the effect that hot gas has on the mean magnetic field. 
+< 
+< The multi-phase structure is defined in terms of temperature and density. However, an equivalent definition is given in terms of entropy, which has an explicit defintion linking density and temperature \citep{Gent12}. The cold, warm and hot phases are defined by the entropy ranges, $s\leq3.7\cdot10^8$, $3.7\cdot10^8<s<23.2\cdot10^8$ and $s>23.2\cdot10^8$ erg g$^{-1}$ K$^{-1}$, respectively. 
+< 
+< %-----------------------------------------------------------------------------
+< \section{The mean magnetic field}
+< %-----------------------------------------------------------------------------
+---
+> The results presented in this paper are based on simulations of the multiphase interstellar medium (ISM) by \cite{gent2} and \cite{gent1}, %further referencing to Paper I & II needed here.
+> focusing on the the B1$\Omega$s model of the ISM. This model features supernova(SN)-driven turbulence with gravity, differential rotation, SN explosions, radiative cooling, photoelectric heating and other transport processes. The random flows driven by the SNe and velocity shear due to the galactic differential rotation act as a dynamo producing both large-scale and small-scale magnetic field, which grow exponentially until reaching a statistically-steady state. \\
+> A snapshot of the ISM at approximately $t=1.4$ Gyr is used. Its characteristics, in terms of the fractional volumes of the phases, is representative of the statistically-steady phase of the system. In addition, there are two potential SN remnants, which provide isolated structures of hot gas. This enhances the illustration of the effect that hot gas has on the mean magnetic field. \\
+> The multi-phase structure is defined in terms of temperature and density. However, an equivalent definition is given in terms of specific entropy, which has an explicit defintion linking density and temperature \citep{gentphd}. The cold, warm and hot phases are defined by the entropy ranges, $s\leq3.7\cdot10^8$, $3.7\cdot10^8<s<23.2\cdot10^8$ and $s>23.2\cdot10^8$ erg g$^{-1}$ K$^{-1}$, respectively. 
+136,141c85
+< 
+< %FAG rephrase
+< The decomposition of the magnetic field into mean and fluctuating (random) 
+< field follows \MHD.
+< %end FAG
+< %When considering the mean-field decomposition of the magnetic field, the notation used by \citep{GSSFM13} is adopted.
+---
+> When considering the decomposition of the magnetic field into a large-scale (mean) and small-scale (random parts), the approach of \cite{gent2} is adopted.
+152c96
+< where $l\approx50$pc is half the integral scale of random motions \citep{GSSFM13}. This value is adopted for this paper based on the justification given in \citep{gent2}.  Preliminary analysis does not show significant sensitivity of the mean or random field to variations in $l$ within the range $0<l<100$pc. However, future work will consider analysis of isolated structures in the ISM. A more detailed analysis of length and correlation scales will be carried out. However, the current definition, $l=50$pc, is sufficient for the purposes of this paper. 
+---
+> where $l\approx50$pc is half the integral scale of random motions \citep{gent2}. This value is adopted for this paper based on the justification given in \citep{gent2}.  Preliminary analysis does not show significant sensitivity of the mean or random field to variations in $l$ within the range $0<l<100$pc. However, future work will consider analysis of isolated structures in the ISM. A more detailed analysis of length and correlation scales will be carried out. However, the current definition, $l=50$pc, is sufficient for the purposes of this paper. 
+173c117
+< \input{mhdruns}
+---
+> %\include{mhdruns}
+176c120
+< Field lines of the magnetic field give a qualitative description of the magnetic field in the ISM. We introduce sampling of physical variables along the field lines of the magnetic field, to obtain a quantitative description of the observables. Observables, such as entropy or pulsar RM measures \citep{SSFS02} are frequently used to derive other observables or statistics.  The use of sampling along field lines will enable the analysis of observables across many snapshots, whilst avoiding the use of time averages, which is not sensible for observables associated to a turbulent flow \citep{TL72}. For example, the wavelet transform methods used by Stepanov \textsl{et al} \citep{st02} are used to derive the Galactic magnetic field from pulsar RM data. Field lines of the Galactic magnetic field can be derived from this analysis and it can be further analysed using sampling along the field lines.\\
+---
+> Field lines of the magnetic field give a qualitative description of the magnetic field in the ISM. We introduce sampling of physical variables along the field lines of the magnetic field, to obtain a quantitative description of the observables. Observables, such as entropy or pulsar RM measures are frequently used to derive other observables or statistics.  The use of sampling along field lines will enable the analysis of observables across many snapshots, whilst avoiding the use of time averages, which is not sensible for observables associated to a turbulent flow \citep{tnl}. For example, the wavelet transform methods used by \cite{st02} are used to derive the Galactic magnetic field from pulsar RM data. Field lines of the Galactic magnetic field can be derived from this analysis and it can be further analysed using sampling along the field lines.\\
+206c150
+< \begin{figure}
+---
+> \begin{figure}[h]
+209c153
+< \caption{PDFs of entropy (blue), $s$, log density (red), $\log(n)$, and log temperature (green), $\log(T)$, along field lines (solid) and straight lines (dashed).}
+---
+> \caption{PDFs of entropy (blue), density (red) and log temperature (green), along field lines (solid) and straight lines (dashed).}
+212c156
+< In Figure \vref{fig:fld_lines}, the white field lines have been seeded along the $xz$-axis at $y\approx-0.51$ kpc. The translucent gas inside the box is a representation of the log density, $\log(n)$, field. Density decreases from brighter to darker colours. Since the warm and hot phase represents approximately $\%99$ of the fractional volume of the ISM gas, it is only useful for visualising the characteristics of the field line within the warm and hot phases. We will present a preliminary result regarding the field lines within the cold phase in this paper. However, a more detailed discussion will be reported elsewhere. 
+---
+> In Figure \ref{fig:fld_lines}, the white field lines have been seeded across the $xz$-plane at $y=-0.51$ kpc. The translucent gas inside the box is a representation of the log density, $\log(n)$, field. Density decreases from brighter to darker colours. Since the warm and hot phase represent approximately $\%99$ of the fractional volume, it is only useful for visualising the characteristics of the field line within the warm and hot phases. We will present a preliminary result regarding the field lines within the cold phase in this paper. However, a more detailed discussion will be reported elsewhere. 
+215c159
+< Similarly, in the range $0.7<z<1.1$ kpc, there is a larger structure of hot gas, which spans the $xy$-plane. This structure appears to be part of rising hot gas, which is leaving the computational domain. As it leaves, it elongates the magnetic field lines until they are no longer connected inside the domain. Consequently, the the field lines are approximately perpendicular to the $y$-axis, where the stretching of the field lines occur due to the hot phase. (NEED TO CHECK WHETHER THE MAGNETIC FIELD ENERGY IS STRONGER IN THESE REGIONS COMPARED WITH THE STRAIGHT LINES!)
+---
+> Similarly, in the range $0.7<z<1.1$ kpc, there is a larger structure of hot gas, which spans the $xy$-plane. This structure appears to be part of rising hot gas, which is leaving the computational domain. As it leaves, it elongates the magnetic field lines until they are no longer connected inside the domain. Consequently, the the field lines are approximately perpendicular to the $y$-axis, where the stretching of the field lines occur due to the hot phase. 
+217,219c161,163
+< Even though the visualisation is informative, it is necessary to determine whether the field lines are sensitive to the phases of the ISM. Consequently, we compare the characteristics of the field lines against straight lines launched in the positive $y$-direction, from the seed points used to compute the field lines. This test is devised using ideas from the field of stereology \citep{BJ04}, lineal analysis in particular. The straight lines used in the test case will have the same general characteristics as the field lines, since they both traverse the computational domain in the positive $y$-direction. This ensures that the lines are representative of the field lines being sampled. Despite having the same general characteristics, the straight lines should not be sensitive to the phases of the ISM; they will not prefer to stay in a particular phase, whilst avoiding others. Therefore, comparison of the PDFs of the observables sampled along the field lines and the straight lines, should identify sensitivity (or lack thereof) of the field lines to the phases of the ISM.\\
+< \noindent Figure \vref{fig:pdfs_mean} shows the probability density functions (PDFs) of entropy, log density and log temperature sampled along field lines (solid lines) and straight lines (dashed lines). The PDFs for log density and log temperature suggest that the PDFs have similar overall behaviour, which is most likely due to their alignment in the $y$-direction. This is reassuring since the choice of aligning the straight lines in the $y$-direction was to avoid introducing uncharacteristic behaviour into the comparison. The straight lines have the orientation of the field lines, without the sensitivity to phases.\\
+< We now consider the PDFs entropy along the field lines and straight lines in Figure \ref{fig:pdfs_mean}. These PDFs are more rich in information. Firstly, we observe similar peaks in the region $1.66<s<10.365$, which corresponds to the warm phase. This agrees with Figure \vref{fig:fld_lines} in that the field lines do not seem sensitive to the warm phase. \\
+---
+> Even though the visualisation is informative, it is necessary to determine whether the field lines are sensitive to the phases of the ISM. Consequently, we compare the characteristics of the field lines against straight lines launched in the positive $y$-direction, from the seed points used to compute the field lines. This test is devised using ideas from the field of stereology \citep{stereo}, lineal analysis in particular. The straight lines used in the test case will have the same general characteristics as the field lines, since they both traverse the computational domain in the positive $y$-direction. This ensures that the lines are representative of the field lines being sampled. Despite having the same general characteristics, the straight lines should not be sensitive to the phases of the ISM; they will not prefer to stay in a particular phase, whilst avoiding others. Therefore, comparison of the PDFs of the observables sampled along the field lines and the straight lines, should identify sensitivity (or lack thereof) of the field lines to the phases of the ISM.\\
+> \noindent Figure \ref{fig:pdfs_mean} shows the probability density functions (PDFs) of entropy, density and temperature sampled along field lines (solid) and straight lines (dashed). The PDFs of density and temperature have similar overall form, which is most likely due to their alignment in the $y$-direction. This is reassuring since the choice of aligning the straight lines in the $y$-direction was to avoid introducing uncharacteristic behaviour into the comparison.\\
+> We now consider the PDFs entropy along the field lines and straight lines in Figure \ref{fig:pdfs_mean}. These PDFs are more rich in information. Firstly, we observe similar peaks in the region $1.66<s<10.365$erg g$^{-1}$K$^{-1}$, which corresponds to the warm phase. This agrees with Figure \ref{fig:fld_lines} in that the field lines do not seem sensitive to the warm phase. \\
+238c182
+< \noindent We observe a sharp peak for the PDF of entropy along the field line, centred at $s\approx27\cdot10^8$ erg g$^{-1}$ K$^{-1}$, which is inside the hot phase. A similar peak is not observed for the PDF of entropy along the straight line. This can be explained by the field lines being stretched by the hot gas and thus traversing the hot phase for a higher proportion of their length than the straight lines, which are not affected by stretching. We formulate probabilities of traversing each phase for the field lines and straight lines from their PDFs. The probabilities are expressed as,
+---
+> \noindent We observe a sharp peak of the PDF of entropy along the field line, centred at $s\approx27\cdot10^8$ erg g$^{-1}$ K$^{-1}$, which is inside the hot phase. A similar peak is not observed for the PDF of entropy along the straight line. This can be explained by the field lines being stretched by the hot gas and thus traversing the hot phase for a higher proportion of their length than the straight lines, which are not affected by stretching. We formulate probabilities of traversing each phase for the field lines and straight lines from their PDFs. The probabilities are expressed as,
+244c188
+< The probabilities of traversing the phases, for the field lines and straight lines, are given in \ref{table:mean_probs}. We observe that the probabilities of the straight lines traversing each phase closely match the fractional volumes of the phases, as expected; lines that are not sensitive should traverse each phase with probability proportional to the fractional volume. 
+---
+> The probabilities of traversing the phases, for the field lines and straight lines, are given in Table \ref{table:mean_probs}. We observe that the probabilities of the straight lines traversing each phase closely match the fractional volumes of the phases, as expected; lines that are not sensitive should traverse each phase with probability proportional to the fractional volume. 
+247c191
+< We use Equation \eqref{f_lines_eqn} to construct field lines for the total and random magnetic field using the same method as for field lines of the mean magnetic field. Sampling along these lines is used to obtain the PDF of  entropy, as seen in the previous section for the mean magnetic field. PDFs of log density and log temperature have been omitted, since the PDF of entropy contains sufficient detail to understand the characteristics of the field lines. The comparison with PDFs along straight lines are only relevant for field lines of the mean magnetic field. This section focuses on the comparison of PDFs along the total, mean and random magnetic field. 
+---
+> We use Eq. \eqref{f_lines_eqn} to construct field lines for the total and random magnetic field using the same method as for field lines of the mean magnetic field. Sampling along these lines is used to obtain the PDF of  entropy, as seen in the previous section for the mean magnetic field. PDFs of log density and log temperature have been omitted, since the PDF of entropy contains sufficient detail to understand the characteristics of the field lines. The comparison with PDFs along straight lines are only relevant for field lines of the mean magnetic field. This section focuses on the comparison of PDFs along the total, mean and random magnetic field. 
+250c194
+< \caption{PDFs of $s$ along field lines of the mean (blue solid), total (red solid) and random (green solid) fields. The boundaries of between the cold and warm phases (black dashed) and between the warm and hot phases (black solid) are indicated.}
+---
+> \caption{PDFs of entropy along field lines of the mean (blue solid), total (red solid) and random (green solid) fields. The boundaries of between the cold and warm phases (black dashed) and between the warm and hot phases (black solid) are indicated.}
+253,254c197,198
+< Figure \vref{fig:tot_pdfs} shows these PDFs. FIrstly, we note that all of the PDFs are clustered in the warm and hot phases. However, this is inextricably linked to the fractional volumes of the phases. It is difficult to discuss whether avoidance of the cold phase by the field line is also a contributing factor.\\
+< We concentrate on the warm and hot phases. The PDF for the total field is similar to that of the mean field in the warm phase. They both have a smooth distribution, even though the PDF of the total appears to be slightly more skewed. In the hot phase, the PDF for the total field is smooth. However, The PDF of the mean field peaks sharply, at approximately $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$. Even though the PDF for the total field is smooth, its local maxima is close to this value of $s$. A similarly sharp peak is observed in this region for the PDF of the random field. This could suggest that $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$ is a characteristic entropy associated with the hot phase for this snapshot. \\
+---
+> Figure \ref{fig:tot_pdfs} shows these PDFs. Firstly, we note that all of the PDFs are clustered in the warm and hot phases. However, this is inextricably linked to the fractional volumes of the phases. It is difficult to discuss whether avoidance of the cold phase by the field line is also a contributing factor.\\
+> We concentrate on the warm and hot phases. The PDF for the total field is similar to that of the mean field in the warm phase. They both have a smooth distribution, even though the PDF of the total field appears to be slightly more skewed. In the hot phase, the PDF for the total field is smooth. However, The PDF of the mean field peaks sharply, at approximately $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$. Even though the PDF for the total field is smooth, its local maxima is close to this value of $s$. A similarly sharp peak is observed in this region for the PDF of the random field. This could suggest that $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$ is a characteristic entropy associated with the hot phase for this snapshot. \\
+260,283d203
+< %FAG
+< Note, that the mean magnetic field is strongest in the warm phase and the 
+< dynamo is strongest in the SN dense region within 500\pc of the midplane. 
+< These results support the hypothesis that the mean field is closely aligned to 
+< the warm phase of the ISM.
+< The fluctuating magnetic field is present in similar magnitude in all phases.
+< Note, in the warm phase, away from the midplane the magnetic field has a 
+< stronger vertical component, even though in these models the periodic boundary
+< conditions constrain the net $B_z$ to be zero on each horizontal slice. 
+< Given more open horizontal boundaries, we could anticipate the mean field 
+< actually to exhibit more vertical structure. 
+< With higher numerical diffusion required for the hot gas, the fluctuation 
+< dynamo in this phase may have been relatively suppressed, although the 
+< Reynolds numbers may have been higher than in the warm gas as both the length
+< scales and the velocities of the turbulence are tyically higher in the hot gas
+< than in the warm.
+< Nevertheless, a higher resolution run would be helpful in assessing how robust
+< is the alignment of the mean field to the warm phase, and whether the
+< fluctuating field in the hot phase may yet have relatively greater amplitude
+< than obtained here.
+< Given the dominance of the dynamo about the midplane, this may be feasible
+< without extending the domain vertically.
+< 
+< %end FAG
+286c206
+< \section*{Acknowledgements}
+---
+> %\section*{Acknowledgements}
+288,290d207
+< %FAG now moot
+< %CCE thanks Dr Frederick Gent for helpful discussions of his work.
+< %end FAG
+292,297c209,213
+< %FAG include bibliography file refs.bib and amended cite codes 
+< %\begin{thebibliography}{99}
+< %\bibitem[\protect\citeauthoryear{Gent \textsl{et al}}{2013}]{GSFSM13} Gent F.A., Shukurov A., Sarson G.R., Fletcher A., Mantere M.J., 2012, MNRAS, 432, 1396-1423
+< %\bibitem[\protect\citeauthoryear{Gent \textsl{et al}}{2012}]{GSSFM13} Gent F.A., Shukurov A., Sarson G.R., Fletcher A., Mantere M.J., 2012, MNRASL
+< %\bibitem[\protect\citeauthoryear{Tennekes and Lumley}{1972}]{TL72} Tennekes H.,~Lumley J.L.,\emph{A First Course in Turbulence},~1972,~MIT Press
+< %\bibitem[\protect\citeauthoryear{Gent}{2012}]{Gent12} Gent F.A.,~PhD Thesis:~\emph{Supernova Driven Turbulence in the Interstellar Medium} ,~2012,~Newcastle University School of Mathematics and Statistics%,\url{<http://hdl.handle.net/10443/1755
+---
+> \begin{thebibliography}{99}
+> \bibitem[\protect\citeauthoryear{Gent \textsl{et al}}{2012}]{gent1} Gent F.A., Shukurov A., Sarson G.R., Fletcher A., Mantere M.J., \emph{The supernova-regulated ISM -- I. The multi-phase structure}, 2012, MNRAS, 432, 1396-1423
+> \bibitem[\protect\citeauthoryear{Gent \textsl{et al}}{2012}]{gent2} Gent F.A., Shukurov A., Sarson G.R., Fletcher A., Mantere M.J., \emph{The supernova-regulated ISM -- II. The mean magnetic field}, 2012, MNRASL
+> \bibitem[\protect\citeauthoryear{Tennekes and Lumley}{1972}]{tnl} Tennekes H.,~Lumley J.L.,\emph{A First Course in Turbulence},~1972,~MIT Press
+> \bibitem[\protect\citeauthoryear{Gent}{2012}]{gentphd} Gent F.A.,~PhD Thesis:~\emph{Supernova Driven Turbulence in the Interstellar Medium},~2012,~Newcastle University School of Mathematics and Statistics%,\url{<http://hdl.handle.net/10443/1755
+299,308c215,217
+< %\bibitem[\protect\citeauthoryear{Stepanov \textsl{et al}}{2002}]{SSFS02} Stepanov R.,~Frick P.,~Shukurov A.,~Sokoloff D.,~\emph{Wavelet tomography of the Galactic magnetic field},~2002,~A\&A,~391,~361-368
+< %\bibitem[\protect\citeauthoryear{Baddeley and Jensen}{2005}]{BJ04} Baddeley A.,~Jensen E.B.,~\emph{Stereology for Statisticians},~2005,~Chapman \& Hall/CRC
+< %\end{thebibliography}
+<   \bibliographystyle{mn2e}      % basic style, author-year citations
+<   \bibliography{refs}
+< % name your BibTeX data base
+<   \label{lastpage}
+< %end FAG
+< 
+< %\appendix
+---
+> \bibitem[\protect\citeauthoryear{Stepanov \textsl{et al}}{2002}]{st02} Stepanov R.,~Frick P.,~Shukurov A.,~Sokoloff D.,~\emph{Wavelet tomography of the Galactic magnetic field},~2002,~A\&A,~391,~361-368
+> \bibitem[\protect\citeauthoryear{Baddeley and Jensen}{2005}]{stereo} Baddeley A.,~Jensen E.B.,~\emph{Stereology for Statisticians},~2005,~Chapman \& Hall/CRC
+> \end{thebibliography}
+310d218
+< %\section[]{Large gaps in L\lowercase{y}${\balpha}$ forests\\* due to fluctuations in line distribution}
+312,335d219
+< %(This appendix was not part of the original paper by
+< %A.V.~Raveendran and is included here just for illustrative
+< %purposes. The references are not relevant to the text of the
+< %appendix, they are references from the bibliography used to
+< %illustrate text before and after citations.)
+< 
+< %Spectroscopic observations of bright quasars show that the mean
+< %number density of Ly$\alpha$ forest lines, which satisfy certain
+< %criteria, evolves like $\rmn{d}N/\rmn{d}z=A(1+z)^\gamma$, where
+< %$A$ and~$\gamma$ are two constants.  Given the above intrinsic
+< %line distribution we examine the probability of finding large gaps
+< %in the Ly$\alpha$ forests.  We concentrate here only on the
+< %statistics and neglect all observational complications such as the
+< %line blending effect \citep[see][for example]{b11}.
+< 
+< %Suppose we have observed a Ly$\alpha$ forest between redshifts $z_1$
+< %and~$z_2$ and found $N-1$ lines.  For high-redshift quasars $z_2$~is
+< %usually the emission redshift $z_{\rmn{em}}$ and $z_1$ is set to
+< %$(\lambda_{\rmn{Ly}\beta}/\lambda_{\rmn{Ly}\alpha})(1+z_{\rmn{em}})=0.844
+< %(1+z_{\rmn{em}})$ to avoid contamination by Ly$\beta$ lines.  We
+< %want to know whether the largest gaps observed in the forest are
+< %significantly inconsistent with the above line distribution.  To do
+< %this we introduce a new variable~$x$:
+< %
