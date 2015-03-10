@@ -544,6 +544,7 @@ In Figure \ref{fig:fld_lines}, data from the snapshot at $t=1.4$ Gyr are used. T
   \vspace{0cm}
   \centering
 \hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1.png}
+%\hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1new.png}
 \hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y\approx-0.5$ kpc. 
   \label{fig:fld_lines}}
   \end{figure*}
@@ -661,24 +662,20 @@ $\mathcal P(\text{cold phase})$&$\ll1\%$ &$\ll1\%$  \\
 %-----------------------------------------------------------------------------
 
 %-----------------------------------------------------------------------------
-\footnote{CAN: please add snapshot1new.png to the repository}
 \begin{figure*}
   \vspace{0cm}
   \centering
 \hspace*{0cm} \includegraphics[scale=0.35]{fig/snapshot1.png}
-%\hspace*{0cm} \includegraphics[scale=0.35]{fig/snapshot1new.png}
 \hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field at $t = 1.4$ Gyr. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y=-0.51$ kpc. 
   \label{fig:fld_lines}}
   \end{figure*}
 %-----------------------------------------------------------------------------
 \begin{figure}
 \centering 
-\includegraphics[width=\linewidth]{fig/snapshot1.png}
-%\includegraphics[width=\linewidth]{snapshot0_entropy.pdf}
+\includegraphics[width=\linewidth]{snapshot0_entropy.pdf}
 \caption{PDFs of entropy sampled along field lines (blue) and straight lines (red).}
 \label{fig:pdfs_mean}
 \end{figure} 
-\footnote{CAN: please add snapshot0\_entropy.pdf to the repository} 
 %-----------------------------------------------------------------------------
 %-----------------------------------------------------------------------------
 \subsection{The mean and random magnetic fields}
@@ -689,11 +686,9 @@ Fig. \ref{fig:tot_pdfs} shows the PDF of entropy sampled along the mean field (b
  %%CCE edit - delete
 %The comparison with PDFs along straight lines are only relevant for field lines of the mean magnetic field. This section focuses on the comparison of PDFs along the total, mean and random magnetic field. 
 %%End CCE edit
-\footnote{CAN: please add ent\_pdfs.pdf and prob\_corrs\_all.pdf to the repository} 
 \begin{figure*}
-\subfigure[]{\includegraphics[width=0.49\linewidth]{fig/snapshot1.png}}
-%\subfigure[]{\includegraphics[width=0.49\linewidth]{ent_pdfs.pdf}}
-%\subfigure[]{\includegraphics[width=0.49\linewidth]{prob_corrs_all.pdf}}
+\subfigure[]{\includegraphics[width=0.49\linewidth]{ent_pdfs.pdf}}
+\subfigure[]{\includegraphics[width=0.49\linewidth]{prob_corrs_all.pdf}}
 \caption{\textbf{(a)} PDFs of $s$ along field lines of the mean (blue solid), total (red solid) and random (green solid) magnetic fields. The boundaries of between the cold and warm phases (black dashed) and between the warm and hot phases (black solid) are indicated. \textbf{(b)} PDFs of maximum distance from the seed point of field lines for the mean (blue solid), total (green solid) and random (red solid) magnetic fields.}
 \label{fig:tot_pdfs}
 \end{figure*}
@@ -736,6 +731,27 @@ A sharp peak is also observed in the warm phase in the PDF for the random field,
 %-----------------------------------------------------------------------------
 \subsection{Curve fitting for PDFs of entropy}
 %-----------------------------------------------------------------------------
+\subsection{Correlation lengths of the magnetic fields}
+\begin{table}[H]
+ \centering
+ %\begin{minipage}{180mm}
+  \caption{Correlation lengths for the total, mean and random magnetic field in kpc.}
+  \label{table:mean_probs}
+ % \begin{tabular*}{@{}c c c @{}}{\linewidth}{@{\extracolsep{\fill}}p{0.3\linewidth}p{0.3\linewidth}p{0.3\linewidth}@{}}
+\begin{tabular*}{\linewidth}{p{0.20\linewidth}p{0.20\linewidth}p{0.2\linewidth}p{0.2\linewidth}@{}}
+  \hline
+Correlation length &Total magnetic field& Mean magnetic field& Random magnetic field \\
+ \hline
+\\
+$C$&$0.711$&$0.700$&$0.241$ \\
+$C_x$& $0.061$&$0.045$&$0.065$   \\
+$C_y$&$0.380$ & $0.0.376$&$0.090$    \\
+$C_z$&0.124&$0.084$&$0.105$\\
+\hline
+\end{tabular*}
+%\end{minipage}
+\end{table}
+
 
  
 %-----------------------------------------------------------------------------
