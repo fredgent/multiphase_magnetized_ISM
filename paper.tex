@@ -484,8 +484,7 @@ This will be discussed using the field lines and by comparison with a test case.
 
 %\boldmath
 %-----------------------------------------------------------------------------
-\subsection{Methods for numerical analysis of magnetic field lines}
-\subsubsection{Field line equation for a vector field, $\bvec{B}(\bvec{x})$}
+\subsection{Field line equation for a vector field, $\bvec{B}(\bvec{x})$}
 %-----------------------------------------------------------------------------
 %\unboldmath
 
@@ -535,11 +534,27 @@ where $r_{min}$ and $r_{max}$ are the minimum and maximum values of $r$ observed
 \subsection{The phase that hosts the magnetic field}
 The mean magnetic field is considered first, to explore the large-scale characteristics of the magnetic field, having extracted the small-scale fluctuations with Gaussian volume averaging.  Intuition suggests that the mean magnetic field will prefer to stay in the warm phase, which provides a less hostile environment for the magnetic field than the transonic, compressible turbulence of the hot phase. As discussed in Section \label{sect:3BB}, the magnetic field is very strong and well-aligned with the azimuthal ($y$) direction in the $|z|<0.6$kpc region, where the warm phase dominates. In the $0.6<|z|<1.0$kpc region, the hot phase dominates. Consequently, the magnetic field is not well aligned and much weaker than the magnetic field in the warm phase. The the turbulent flows in the $0.6<|z|<1.0$kpc region will have the highest kinetic energies throughout the ISM (CALCULATE THESE AVERAGE VALUES). Conversely, the magnetic field is very weak in the hot phase (Fig.~\ref{fig:b2dent}). Subsequently, the kinetic energy of the flows should be at least of a comparable order to the magnetic field energy in this region.  We expect this to cause distortions in the magnetic field (CCE: REFERENCE TAYLOR HERE). The lack of alignment and weakness of the magnetic field in this region (Fig. \ref{fig:b3box}) imply that the magnetic field is sensitive to the hot phase. The characteristics of the magnetic field lines further clarify the effect of the hot phase on the magnetic field.
 \subsubsection{Distortion of the mean magnetic field lines in the hot phase}
-In Figure \ref{fig:fld_lines}, data from the snapshot at $t=1.4$ Gyr are used.
-The white field lines have been seeded along the $xz$-axis at $y=-0.51$ kpc. 
-The translucent gas inside the box is a representation of the log density field.
-Density decreases from brighter to darker colours. 
-Since the warm and hot phase represents approximately $\%99$ of the volume of the ISM gas, it is only useful for visualising the characteristics of the field line within the warm and hot phases. 
+In Figure \ref{fig:fld_lines}, data from the snapshot at $t=1.4$ Gyr are used. The white field lines have been seeded along the $xz$-axis at $y=-0.51$ kpc. The translucent gas inside the box is a representation of the log density field. Density decreases from brighter to darker colours. Since the warm and hot phase represents approximately $\%99$ of the volume of the ISM gas, it is only useful for visualising the characteristics of the field line within the warm and hot phases. 
+
+%-----------------------------------------------------------------------------
+\subsection{3D rendering of field lines of the mean magnetic field}
+%-----------------------------------------------------------------------------
+
+\begin{figure*}
+  \vspace{0cm}
+  \centering
+\hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1.png}
+%\hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1new.png}
+\hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y\approx-0.5$ kpc. 
+  \label{fig:fld_lines}}
+  \end{figure*}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{sline_vs_fld1.pdf}
+\caption{PDFs of entropy (blue), $s$, log density (red), $\log(n)$, and log temperature (green), $\log(T)$, along field lines (solid) and straight lines (dashed).}
+\label{fig:pdfs_mean}
+\end{figure}
+%-----------------------------------------------------------------------------
 
 In Figure \vref{fig:fld_lines}, the white field lines have been seeded along 
 the $xz$-axis at $y\approx-0.51$ kpc. 
