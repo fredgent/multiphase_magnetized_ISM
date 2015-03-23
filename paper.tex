@@ -63,11 +63,11 @@ Sheffield, UK, S3 7RH}
 \label{firstpage}
 
 \begin{abstract}
-Abstract to be left until the end. Words, words and more words to follow but first we need a paper. There will be methods, keywords and results hinted at here. 
+\ldots 
 \end{abstract}
 
 \begin{keywords}
-circumstellar matter -- infrared: stars.
+\ldots
 \end{keywords}
 
 %-----------------------------------------------------------------------------
@@ -75,8 +75,8 @@ circumstellar matter -- infrared: stars.
 %-----------------------------------------------------------------------------
 
 FAG -- notes -- include Beck, Fletcher, Berkhuijsen observations of magnetic 
-fields \citep{2013AN....334..548B, MNR18065} and observation/estimates of multiphase structure \citep{dummy}
-\citep{CS74,M077}
+fields \citep{BAH13, MNR18065} and observation/estimates of multiphase structure 
+\citep{CS74,MO77}
 
 %FAG rephrase
 %The results presented in this paper are based on simulations of the multiphase interstellar medium (ISM) by Gent \textsl{et al} in \citep{GSFSM13} and \citep{GSSFM13}, %further referencing to Paper I & II needed here.
@@ -124,11 +124,13 @@ multi-phase structure of the magnetized ISM and for comparison with observation.
 %end FAG
 Twelve snapshots in the time range, $1.40\Gyr<t<1.67\Gyr$ are used. 
 This time range corresponds to the steady-state phase of the system. 
-In addition, there are two potential SN remnants, which provide isolated 
-structures of hot gas. 
+%CCE edit--------------------------------------------------------------------
+%In addition, there are two potential SN remnants, which provide isolated 
+%structures of hot gas. 
 In addition, a snapshot at $t=1.4$ Gyr is also presented 
 (Figure \ref{fig:fld_lines}) to illustrate the effect of the hot phase on 
-the magnetic field. 
+the magnetic field. This snapshot is chosen because it contains a hot gas structure resembling a superbubble, which has length scale $\mathcal O(10^2)$pc, in all physical dimensions. Further the ISM is well stratified in this snapshot; there are no chimney structures of hot gas propagating throughout the simulation domain. This illustrates the contrast in the characteristics of the mean magnetic field lines between the warm and the hot phases.   
+%CCE edit--------------------------------------------------------------------
 
 The multi-phase structure is defined in terms of temperature and density. However, an equivalent definition is given in terms of entropy, which has an explicit defintion linking density and temperature \citep{Gent12}. The cold, warm and hot phases are defined by the entropy ranges, $s\leq3.7\cdot10^8$, $3.7\cdot10^8<s<23.2\cdot10^8$ and $s>23.2\cdot10^8$ erg g$^{-1}$ K$^{-1}$, respectively. 
 
@@ -151,7 +153,9 @@ Gaussian smoothing of the magnetic field with kernel size $l$ is represented by
 G_{l}(\bvec{x})&=(2\pi l^2)^{-3/2}\exp[-\bvec{x}/(2l^2)],\nonumber
 \label{gauss}
 \end{align} 
-where $l\approx50$pc is half the integral scale of random motions \citep{GSSFM13}. This value is adopted for this paper based on the justification given in \citep{gent2}.  Preliminary analysis does not show significant sensitivity of the mean or random field to variations in $l$ within the range $0<l<100$pc. However, future work will consider analysis of isolated structures in the ISM. A more detailed analysis of length and correlation scales will be carried out. However, the current definition, $l=50$pc, is sufficient for the purposes of this paper. 
+where $l\approx50$pc is half the integral scale of random motions, as discussed
+in \HD.  
+Preliminary analysis does not show significant sensitivity of the mean or random field to variations in $l$ within the range $30<l<100$pc. However, future work will consider analysis of isolated structures in the ISM. A more detailed analysis of length and correlation scales will be carried out. However, the current definition, $l=50$pc, is sufficient for the purposes of this paper. 
 %\begin{table*}
  %\centering
  %\begin{minipage}{140mm}
@@ -233,14 +237,9 @@ where $l\approx50$pc is half the integral scale of random motions \citep{GSSFM13
             }
   \end{figure}
 %-----------------------------------------------------------------------------
-
-  As discussed in Section~\ref{subsect:params} the stability of the disc
-  reduces the effectiveness of the SNe to generate and circulate hot gas, in
-  the absence of SN clustering. 
-  Hence Model~$\Omph$ has a slightly thicker disc, with less hot gas than 
-  Model~\Op.
-  On top of this the effect of the magnetic pressure in Model~$\Ompa$ is to 
-  expand the thick disc even further and this is illustrated in 
+ 
+  The effect of the magnetic pressure in Model~$\Ompa$ is to 
+  expand the thick disc further than Model~$\Omph$ and this is illustrated in 
   Fig.~\ref{fig:zrhom}a, where the horizontal averages of gas number density
   $n(z)$ are plotted against $z$ for both models. 
   The strong peak in the density at the mid-plane is evident for Model~$\Omph$
@@ -277,7 +276,7 @@ where $l\approx50$pc is half the integral scale of random motions \citep{GSSFM13
   Another possible effect, which might constrain the circulation of the hot
   gas, and hence enhance the pressure at the mid-plane, is the strong 
   horizontal orientation of the field.
-  As mentioned in Section~\ref{sect:dyn} the periodic boundary conditions
+  As mentioned in Section~$7.2$ in \citet{Gent12} the periodic boundary conditions
   exclude a non-zero vertical component to the mean field, so the magnetic
   tension predominantly acts against the vertical flows.
   Some understanding of the multi-phase structure of the magnetised ISM is
@@ -464,12 +463,12 @@ Magnetic field lines give a qualitative description of the magnetic field in
 the ISM. 
 We introduce sampling of physical variables along the field lines of the 
 magnetic field, to obtain a quantitative description of the observables. 
-Observables, such as entropy or pulsar RM measures \citep{SSFS02} are 
+Observables, such as entropy or pulsar RM measures \citep{SFSS02} are 
 frequently used to derive other observables or statistics.  
 The use of sampling along field lines will enable the analysis of observables 
 across many snapshots, whilst avoiding the use of time averages, which is not 
 sensible for observables associated to a turbulent flow \citep{TL72}. 
-For example, wavelet transform methods are used by \citet{st02}, to derive the
+For example, wavelet transform methods are used by \citet{SFSS02}, to derive the
 Galactic magnetic field from pulsar RM data. 
 Field lines of the Galactic magnetic field can be derived from this analysis 
 and it can be further analysed using sampling along the field lines.
@@ -523,7 +522,7 @@ We define the probability of finding a point along a field line in each of the p
 \end{align}
 We make extensive use of PDFs of sampled variables, both graphically and to make specific statements about the characteristics of the magnetic fields in the ISM.
 \subsubsection{Analysis of the sensitivity of magnetic field lines to the multi-phase structure}
-Even though the visualisation is informative, it is necessary to determine whether the field lines are sensitive to the phases of the ISM. Consequently, we compare the characteristics of the field lines against straight lines launched in the positive $y$-direction, from the seed points used to compute the field lines. This test is devised using ideas from the field of stereology \citep{BJ04}, lineal analysis in particular. The straight lines used in the test case will have the same general characteristics as the field lines, since they both traverse the computational domain in the positive $y$-direction. This ensures that the lines are representative of the field lines being sampled. Despite having the same general characteristics, the straight lines should not be sensitive to the phases of the ISM; they will not prefer to stay in a particular phase, whilst avoiding others. Therefore, comparison of the PDFs of the observables sampled along the field lines and the straight lines, should identify sensitivity (or lack thereof) of the field lines to the phases of the ISM.\\
+Even though the visualisation is informative, it is necessary to determine whether the field lines are sensitive to the phases of the ISM. Consequently, we compare the characteristics of the field lines against straight lines launched in the azimuthal ($y$) direction, from the seed points used to compute the field lines. This test is devised using ideas from the field of stereology \citep{BJ04}, lineal analysis in particular. The straight lines used in the test case will have the same general characteristics as the field lines, since they both traverse the computational domain in the positive $y$-direction. This ensures that the lines are representative of the field lines being sampled. Despite having the same general characteristics, the straight lines should not be sensitive to the phases of the ISM; they will not prefer to stay in a particular phase, whilst avoiding others. Therefore, comparison of the PDFs of the observables sampled along the field lines and the straight lines, should identify sensitivity (or lack thereof) of the field lines to the phases of the ISM.\\
 In addition, similar samples can be taken from snapshots which are statistically independent in time. If the seeding for the field line calculations are carried out identically for each snapshot, a physically meaningful ensemble average is obtained. The twelve snapshots used in this paper are statistically independent in time and are taken from the statistically-steady phase of the system.
 \subsubsection{Correlation analysis of magnetic field lines using PDFs}
 We also use PDFs to analyse the correlation lengths of the magnetic fields in the multi-phase. We calculate the maximum displacement of the field lines from their seed point, $r$, and their maximum displacement along the $x$, $y$ and $z$ axes, $r_x$, $r_y$ and $r_z$, respectively. PDFs of these quantities are calculated using kernel density estimation. As an example, we consider some field line, $L_i$, with seed point, $\bvec{x}_0\equiv(x_0,y_0,z_0)$. The field line must have a minimum and maximum displacement from the seed point, which is a direct consequence of the solenoidality of the magnetic field. The maximum displacement occurs at some $\bvec{x}_{max}$ along $L_i$ such that $r=|\bvec{x_{max}}-\bvec{x}|$. The maximum displacements along the axes are described by $r_x = x_{max}-x_0$, $r_y = y_{max}-y_0$, $r_z = z_{max}-z_0$. We calculate typical length scales for each of these displacements, using the mean of the random variable. For example, for $r$, we use
@@ -532,35 +531,9 @@ C = \int_{r_{min}}^{r_{max}}r\mathcal{P}(r)dr,
 \end{equation}
 where $r_{min}$ and $r_{max}$ are the minimum and maximum values of $r$ observed across all snapshots and $\mathcal{P}(r)$ is the PDF of $r$. The typical length scales $C_x$, $C_y$, $C_z$ along the $x$, $y$ and $z$ axes, respectively, are calculated using similar expressions. 
 \subsection{The phase that hosts the magnetic field}
-The mean magnetic field is considered first, to explore the large-scale characteristics of the magnetic field, having extracted the small-scale fluctuations with Gaussian volume averaging.  Intuition suggests that the mean magnetic field will prefer to stay in the warm phase, which provides a less hostile environment for the magnetic field than the transonic, compressible turbulence of the hot phase. As discussed in Section \label{sect:3BB}, the magnetic field is very strong and well-aligned with the azimuthal ($y$) direction in the $|z|<0.6$kpc region, where the warm phase dominates. In the $0.6<|z|<1.0$kpc region, the hot phase dominates. Consequently, the magnetic field is not well aligned and much weaker than the magnetic field in the warm phase. The the turbulent flows in the $0.6<|z|<1.0$kpc region will have the highest kinetic energies throughout the ISM (CALCULATE THESE AVERAGE VALUES). Conversely, the magnetic field is very weak in the hot phase (Fig.~\ref{fig:b2dent}). Subsequently, the kinetic energy of the flows should be at least of a comparable order to the magnetic field energy in this region.  We expect this to cause distortions in the magnetic field (CCE: REFERENCE TAYLOR HERE). The lack of alignment and weakness of the magnetic field in this region (Fig. \ref{fig:b3box}) imply that the magnetic field is sensitive to the hot phase. The characteristics of the magnetic field lines further clarify the effect of the hot phase on the magnetic field.
+The mean magnetic field is considered first, to explore the large-scale characteristics of the magnetic field, having extracted the small-scale fluctuations with Gaussian volume averaging.  Intuition suggests that the mean magnetic field will prefer to stay in the warm phase, which provides a less hostile environment for the magnetic field than the transonic, compressible turbulence of the hot phase. As discussed in Section \label{sect:3BB}, the magnetic field is very strong and well-aligned with the azimuthal ($y$) direction in the $|z|<0.6$kpc region, where the warm phase dominates. In the $0.6<|z|<1.0$kpc region, the hot phase dominates. Consequently, the magnetic field is not well aligned and much weaker than the magnetic field in the warm phase. The the turbulent flows in the $0.6<|z|<1.0$kpc region will have the highest kinetic energies throughout the ISM (CALCULATE THESE AVERAGE VALUES). Conversely, the magnetic field is very weak in the hot phase (Fig.~\ref{fig:b2dnt}). Subsequently, the kinetic energy of the flows should be at least of a comparable order to the magnetic field energy in this region.  We expect this to cause distortions in the magnetic field (CCE: REFERENCE TAYLOR HERE). The lack of alignment and weakness of the magnetic field in this region (Fig. \ref{fig:b3box}) imply that the magnetic field is sensitive to the hot phase. The characteristics of the magnetic field lines further clarify the effect of the hot phase on the magnetic field.
 \subsubsection{Distortion of the mean magnetic field lines in the hot phase}
-In Figure \ref{fig:fld_lines}, data from the snapshot at $t=1.4$ Gyr are used. The white field lines have been seeded along the $xz$-axis at $y=-0.51$ kpc. The translucent gas inside the box is a representation of the log density field. Density decreases from brighter to darker colours. Since the warm and hot phase represents approximately $\%99$ of the volume of the ISM gas, it is only useful for visualising the characteristics of the field line within the warm and hot phases. 
-
-%-----------------------------------------------------------------------------
-\subsection{3D rendering of field lines of the mean magnetic field}
-%-----------------------------------------------------------------------------
-
-\begin{figure*}
-  \vspace{0cm}
-  \centering
-\hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1.png}
-%\hspace*{0cm} \includegraphics[width=\linewidth]{snapshot1new.png}
-\hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y\approx-0.5$ kpc. 
-  \label{fig:fld_lines}}
-  \end{figure*}
-\begin{figure}
-\centering
-\includegraphics[width=\linewidth]{sline_vs_fld1.pdf}
-\caption{PDFs of entropy (blue), $s$, log density (red), $\log(n)$, and log temperature (green), $\log(T)$, along field lines (solid) and straight lines (dashed).}
-\label{fig:pdfs_mean}
-\end{figure}
-%-----------------------------------------------------------------------------
-
-In Figure \vref{fig:fld_lines}, the white field lines have been seeded along 
-the $xz$-axis at $y\approx-0.51$ kpc. 
-The translucent gas inside the box is a representation of the log density, 
-$\log(n)$, field. 
-Density decreases from brighter to darker colours. 
+In Figure \ref{fig:fld_lines}, data from the snapshot at $t=1.4$ Gyr are used. The white field lines have been seeded along the $xz$-axis at $y=-0.51$ kpc. The translucent gas inside the box is a representation of the log density field. Density decreases from brighter to darker colours.  
 Since the warm and hot phase represents approximately $\%99$ of the fractional
 volume of the ISM gas, it is only useful for visualising the characteristics 
 of the field line within the warm and hot phases. 
@@ -590,9 +563,7 @@ until they are no longer connected inside the domain.
 Consequently, the the field lines are approximately perpendicular to the 
 $y$-axis, where the magnetic field lines are strecthed and distorted by the 
 hot phase.
-
-\noindent 
-Figure \ref{fig:pdfs_mean} shows the probability density functions (PDFs) of 
+\noindent Figure \ref{fig:pdfs_mean} shows the probability density functions (PDFs) of 
 entropy sampled along field lines (solid lines) and straight lines (dashed
 lines) for the snapshot at $t=1.4$ Gyr. 
 The PDFs show that the magnetic field lines and straight lines have similar 
@@ -652,7 +623,7 @@ This strongly suggests that the magnetic field resides in the warm phase.
    Probability& Mean field lines& Straight lines \\
  \hline
 \\
-$\mathcal P(\text{cold phase})$&$\ll1\%$ &$\ll1\%$  \\
+$\mathcal P(\text{cold phase})$&$\ll0.01$ &$\ll0.01$  \\
    $\mathcal P(\text{warm phase})$& $0.79$&$0.89$   \\
    $\mathcal P(\text{hot phase})$&$0.20$ & $0.11$    \\
 \hline
@@ -665,16 +636,16 @@ $\mathcal P(\text{cold phase})$&$\ll1\%$ &$\ll1\%$  \\
 \begin{figure*}
   \vspace{0cm}
   \centering
-\hspace*{0cm} \includegraphics[scale=0.35]{fig/snapshot1.png}
-\hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field at $t = 1.4$ Gyr. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y=-0.51$ kpc. 
+  \hspace*{0cm} \includegraphics[scale=0.35]{fig/snapshot1.png}
+  \hspace*{0cm} \caption{3D rendering of the field lines of the mean magnetic field at $t = 1.4$ Gyr. The white lines are field lines seeded along a regular grid on the $xz$-plane at $y=-0.51$ kpc. 
   \label{fig:fld_lines}}
-  \end{figure*}
+\end{figure*}
 %-----------------------------------------------------------------------------
 \begin{figure}
-\centering 
-\includegraphics[width=\linewidth]{snapshot0_entropy.pdf}
-\caption{PDFs of entropy sampled along field lines (blue) and straight lines (red).}
-\label{fig:pdfs_mean}
+  \centering 
+  \includegraphics[width=\linewidth]{snapshot0_entropy.pdf}
+  \caption{PDFs of entropy sampled along field lines (blue) and straight lines (red).}
+  \label{fig:pdfs_mean}
 \end{figure} 
 %-----------------------------------------------------------------------------
 %-----------------------------------------------------------------------------
@@ -699,6 +670,7 @@ This agrees with preliminary work carried out on 3D vector plots of the random m
 %We concentrate on the warm and hot phases. The PDF for the total field is similar to that of the mean field in the warm phase. They both have a smooth distribution, even though the PDF of the total appears to be slightly more skewed. In the hot phase, the PDF for the total field is smooth. However, The PDF of the mean field peaks sharply, at approximately $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$. Even though the PDF for the total field is smooth, its local maxima is close to this value of $s$. A similarly sharp peak is observed in this region for the PDF of the random field. This could suggest that $s=27\cdot10^8$ erg g$^{-1}$ K$^{-1}$ is a characteristic entropy associated with the hot phase for this snapshot. \\
 %A sharp peak is also observed in the warm phase in the PDF for the random field, at approximately $s=15.5\cdot10^8$ erg g$^{-1}$ K$^{-1}$. The probability density for the random field is weak outside of the sharp regions. It appears that the random field is characterised by a small range of entropy values in the warm and hot phases. 
 
+%-----------------------------------------------------------------------------
 
 %%\noindent 
 %We observe a sharp peak for the PDF of entropy along the field line, centred at $s\approx27\cdot10^8$ erg g$^{-1}$ K$^{-1}$, which is inside the hot phase. A similar peak is not observed for the PDF of entropy along the straight line. This can be explained by the field lines being stretched by the hot gas and thus traversing the hot phase for a higher proportion of their length than the straight lines, which are not affected by stretching. We formulate probabilities of traversing each phase for the field lines and straight lines from their PDFs. The probabilities are expressed as,
@@ -711,6 +683,7 @@ This agrees with preliminary work carried out on 3D vector plots of the random m
 %On the other hand, the probability of a field line traversing the hot phase is significantly higher than that of a straight line, which reiterates the effect of the stretching of field lines by the phase. The probability of a field line traversing the warm phase is lower than that of a straight line. However, this is a direct consequence of the distortion of the magnetic field by the hot phase. We note that the probability of a field line traversing the cold phase is lower than that of a straight line by an order of magnitude. This could constitute a preliminary indication that the field lines avoid the cold phase. As noted earlier, the characteristics of the magnetic field in the cold phase will be explored in greater detail elsewhere.  
 %
 %%-----------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %\subsection{Field lines of the total and random magnetic field}
 %%-----------------------------------------------------------------------------
 %
@@ -721,6 +694,7 @@ This agrees with preliminary work carried out on 3D vector plots of the random m
 %\includegraphics[width=\linewidth]{decomp_pdf_overall.pdf}
 %\caption{PDFs of $s$ along field lines of the mean (blue solid), total (red solid) and random (green solid) fields. The boundaries of between the cold and warm phases (black dashed) and between the warm and hot phases (black solid) are indicated.}
 %\label{fig:tot_pdfs}
+%-----------------------------------------------------------------------------
 %\end{figure}
 %%-----------------------------------------------------------------------------
 
@@ -729,7 +703,7 @@ We concentrate on the warm and hot phases. The PDF for the total field is simila
 A sharp peak is also observed in the warm phase in the PDF for the random field, at approximately $s=15.5\cdot10^8$ erg g$^{-1}$ K$^{-1}$. The probability density for the random field is weak outside of the sharp regions. It appears that the random field is characterised by a small range of entropy values in the warm and hot phases. 
 
 %-----------------------------------------------------------------------------
-\subsection{Curve fitting for PDFs of entropy}
+%\subsection{Curve fitting for PDFs of entropy}
 %-----------------------------------------------------------------------------
 \subsection{Correlation lengths of the magnetic fields}
 \begin{table}[H]
@@ -745,7 +719,7 @@ Correlation length &Total magnetic field& Mean magnetic field& Random magnetic f
 \\
 $C$&$0.711$&$0.700$&$0.241$ \\
 $C_x$& $0.061$&$0.045$&$0.065$   \\
-$C_y$&$0.380$ & $0.0.376$&$0.090$    \\
+$C_y$&$0.380$ & $0.376$&$0.090$    \\
 $C_z$&0.124&$0.084$&$0.105$\\
 \hline
 \end{tabular*}
